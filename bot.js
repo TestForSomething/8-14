@@ -19,4 +19,4 @@ hero.on('message',async message => {
     }
   }
 });
- client.login(process.env.BOT_TOKEN);
+ hero.login(process.env.BOT_TOKEN);
