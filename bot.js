@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
-const hero = new Discord.Client();
+const client = new Discord.Client();
 
-hero.on('message',async message => {
+client.on('message',async message => {
   if(message.content.startsWith('سيرفرات')) {
     if(message.author.id !== '278261303540187137') return message.channel.send(':negative_squared_cross_mark: » هذا الأمر مخصص لصاحب البوت فقط');
     try {
-      hero.guilds.forEach(g => {
+      client.guilds.forEach(g => {
         var l = g.channels.first();
         l.createInvite({
           maxUses: 3
@@ -19,4 +19,4 @@ hero.on('message',async message => {
     }
   }
 });
- hero.login(process.env.BOT_TOKEN);
+ client.login(process.env.BOT_TOKEN);
