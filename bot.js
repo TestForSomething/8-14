@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const hero = new Discord.Client();
 
 hero.on('message',async message => {
   if(message.content.startsWith('سيرفرات')) {
