@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-    console.log(`i am ready ${client.user.username}`);
-
 
 client.on('ready', async() => {
 var server = "487707897309036554"; // ايدي السررفر
