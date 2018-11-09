@@ -45,7 +45,6 @@ const client = new Discord.Client();
 
 client.on('warn', console.warn);
 
-client.on('error', console.error);
 // Codes server - !.Zeyad' , ♚Roýale#5555
 
 
