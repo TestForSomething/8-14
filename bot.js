@@ -42,7 +42,6 @@ Codes server - !.Zeyad' , ♚Roýale#5555
 */
 const Discord = require('discord.js');
 const client = new Discord.Client();
-    client.user.setGame(`credits!`,'https://www.twitch.tv/MeeRcY')
 
 client.on('warn', console.warn);
 
