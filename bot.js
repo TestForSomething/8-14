@@ -12,6 +12,8 @@
 
 
     client1.on('ready', () => {
+client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv/danger"})
+
     console.log(`Logged in as ${client1.user.tag}!`);
     });
     function randomIntFromInterval(min,max){
