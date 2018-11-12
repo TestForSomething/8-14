@@ -12,8 +12,6 @@
 
 
     client1.on('ready', () => {
-client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv/danger"})
-
     console.log(`Logged in as ${client1.user.tag}!`);
     });
     function randomIntFromInterval(min,max){
@@ -35,7 +33,7 @@ client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv
                 }, randomIntFromInterval(1119, 2119))
             }
             if(msg.content.startsWith(`credits`)){
-                if(msg.channel.id !== "شات الايدي الخاص بتحويل الكريدتز") return;
+                if(msg.channel.id !== "510836021357838336") return;
                 if(msg.isMentioned(client1.user)){
                     farm.set(`farm`, 'blah blah')
                     let args = msg.content.split(` `)
@@ -73,7 +71,7 @@ client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv
                 }, randomIntFromInterval(1119, 2119))
             }
             if(msg.content.startsWith(`credits`)){
-                if(msg.channel.id !== "شات الايدي الخاص بتحويل الكريدتز") return;
+                if(msg.channel.id !== "510836021357838336") return;
                 if(msg.isMentioned(client_2.user)){
                     farm.set(`farm`, 'blah blah')
                     let args = msg.content.split(` `)
@@ -110,7 +108,7 @@ client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv
                 }, randomIntFromInterval(1119, 2119))
             }
             if(msg.content.startsWith(`credits`)){
-                if(msg.channel.id !== "شات الايدي الخاص بتحويل الكريدتز") return;
+                if(msg.channel.id !== "510836021357838336") return;
                 if(msg.isMentioned(client_3.user)){
                     farm.set(`farm`, 'blah blah')
                     let args = msg.content.split(` `)
@@ -146,7 +144,7 @@ client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv
                 }, randomIntFromInterval(1119, 2119))
             }
             if(msg.content.startsWith(`credits`)){
-                if(msg.channel.id !== "شات الايدي الخاص بتحويل الكريدتز") return;
+                if(msg.channel.id !== "510836021357838336") return;
                 if(msg.isMentioned(client_4.user)){
                     farm.set(`farm`, 'blah blah')
                     let args = msg.content.split(` `)
@@ -182,7 +180,7 @@ client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv
                 }, randomIntFromInterval(1119, 2119))
             }
             if(msg.content.startsWith(`credits`)){
-                if(msg.channel.id !== "شات الايدي الخاص بتحويل الكريدتز") return;
+                if(msg.channel.id !== "510836021357838336") return;
                 if(msg.isMentioned(client_5.user)){
                     farm.set(`farm`, 'blah blah')
                     let args = msg.content.split(` `)
@@ -219,7 +217,7 @@ client1.user.setActivity('spam ?', {type: "STREAMING",url: "http://www.twitch.tv
                 }, randomIntFromInterval(1119, 2119))
             }
             if(msg.content.startsWith(`credits`)){
-                if(msg.channel.id !== "شات الايدي الخاص بتحويل الكريدتز") return;
+                if(msg.channel.id !== "510836021357838336") return;
                 if(msg.isMentioned(client_6.user)){
                     farm.set(`farm`, 'blah blah')
                     let args = msg.content.split(` `)
