@@ -1,34 +1,38 @@
-
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-var adminprefix = 'M'
 
-const developers = ["278261303540187137"]
-client.on('message', message => {
-    var argresult = message.content.split(` `).slice(1).join(' ');
-      if (!developers.includes(message.author.id)) return;
-      
-  if (message.content.startsWith(adminprefix + 'setg')) {
-    client.user.setGame(argresult);
-      message.channel.send(`**✅   ${argresult}**`)
-  } else 
-  if (message.content.startsWith(adminprefix + 'setw')) {
-  client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**✅   ${argresult}**`)
-  } else 
-  if (message.content.startsWith(adminprefix + 'setl')) {
-  client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**✅   ${argresult}**`)
-  } else 
-  if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/dream");
-      message.channel.send(`**✅**`)
-  }
-  if (message.content.startsWith(adminprefix + 'iamnootanidiotsonofabiitchf')) {
-  client.user.setUsername(argresult).then
-      message.channel.send(`Changing The Name To ..**${argresult}** `)
-} 
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(`**
+  5invites : 50K
+  10invites : 80K
+  300Invites : 1M Credit
+  15Invites : Hypixel VIP
+  50Invites : Hypxiel MVP+
+  50Invites : Discord Nitro
+  
+
+                                 https://discord.gg/NCmBbgp**`)
+}).catch(console.error)
+})
+
+client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(`**
+  5invites : 50K
+  10invites : 80K
+  300Invites : 1M Credit
+  15Invites : Hypixel VIP
+  50Invites : Hypxiel MVP+
+  50Invites : Discord Nitro
+  
+
+                                 https://discord.gg/NCmBbgp**`)
+}).catch(console.error)
+})
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
