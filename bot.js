@@ -34,5 +34,4 @@ client.on("guildMemberRemove", member => {
                                  https://discord.gg/NCmBbgp**`)
 }).catch(console.error)
 })
-
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+client.login("NDg4NDUwNTI2MDcwMTc3ODM5.Dt2ORA.YFJHA-GDxV4-Ue6tz_8ioaDWcpw");
