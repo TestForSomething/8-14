@@ -7,17 +7,17 @@ const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 const client7 = new Discord.Client();
 
-var prefix = "1";
-var prefix2 = "2";
-var prefix3 = "3";
-var prefix4 = "4";
-var prefix5 = "5";
-var prefix6 = "6";
-var prefix7 = "7";
+var prefix = "8";
+var prefix2 = "9";
+var prefix3 = "10";
+var prefix4 = "11";
+var prefix5 = "12";
+var prefix6 = "13";
+var prefix7 = "14";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
-  client.user.setGame(`SPAM ? (1)`,"http://twitch.tv/Dream")
+  client.user.setGame(`SPAM ? (8)`,"http://twitch.tv/Dream")
 
 });
 
@@ -48,7 +48,7 @@ client.on('message', message => {
 
  client2.on('ready', () => {
   console.log(`Logged in as ${client2.user.tag}!`);  
-  client2.user.setGame(`SPAM ? (2)`,"http://twitch.tv/Dream")
+  client2.user.setGame(`SPAM ? (9)`,"http://twitch.tv/Dream")
 
 });
 
@@ -79,7 +79,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
  client3.on('ready', () => {
   console.log(`Logged in as ${client3.user.tag}!`);  
-  client3.user.setGame(`SPAM ? (3)`,"http://twitch.tv/Dream")
+  client3.user.setGame(`SPAM ? (10)`,"http://twitch.tv/Dream")
 
 });
 
@@ -112,7 +112,7 @@ client3.on('message', message => {
 
  client4.on('ready', () => {
   console.log(`Logged in as ${client4.user.tag}!`);  
-  client4.user.setGame(`SPAM ? (4)`,"http://twitch.tv/Dream")
+  client4.user.setGame(`SPAM ? (11)`,"http://twitch.tv/Dream")
 
 });
 
@@ -145,7 +145,7 @@ client4.on('message', message => {
 
  client5.on('ready', () => {
   console.log(`Logged in as ${client5.user.tag}!`);  
-  client5.user.setGame(`SPAM ? (5)`,"http://twitch.tv/Dream")
+  client5.user.setGame(`SPAM ? (12)`,"http://twitch.tv/Dream")
 
 });
 
@@ -185,7 +185,7 @@ client5.on('message', message => {
 
  client6.on('ready', () => {
   console.log(`Logged in as ${client6.user.tag}!`);  
-  client6.user.setGame(`SPAM ? (6)`,"http://twitch.tv/Dream")
+  client6.user.setGame(`SPAM ? (13)`,"http://twitch.tv/Dream")
 
 });
 
@@ -219,7 +219,7 @@ client6.on('message', message => {
 
  client7.on('ready', () => {
   console.log(`Logged in as ${client7.user.tag}!`);  
-  client7.user.setGame(`SPAM ? (7)`,"http://twitch.tv/Dream")
+  client7.user.setGame(`SPAM ? (14)`,"http://twitch.tv/Dream")
 
 });
 
